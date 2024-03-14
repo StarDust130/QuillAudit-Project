@@ -54,7 +54,7 @@ const Page1 = () => {
 
       <div className="sm:flex sm:gap-4">
         <Link
-          className=" bg-gradient-to-b from-[#7184FD] via-[#3F7AF0] to-[#4F37EE] py-4 rounded-lg px-10 my-3 font-medium text-white shadow hover:bg-blue-800"
+          className=" bg-gradient-to-b from-[#7184FD] via-[#3F7AF0] to-[#4F37EE] py-4 rounded-lg px-10 mb-5 my-3 font-medium text-white shadow hover:bg-blue-800"
           href="#"
         >
           Request an Audit
