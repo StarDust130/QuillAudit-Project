@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent absolute top-0 left-0 right-0 z-10 text-white hover:gray-300 font-light border-b mx-auto  border-opacity-50 w-full h-auto  rounded-tl-8.03 rounded-tr-8.03 text-sm">
+    <nav className="bg-transparent absolute top-0 left-0 right-0 z-10 text-white hover:gray-300 font-light md:border-b mx-auto  border-opacity-50 w-full h-auto  rounded-tl-8.03 rounded-tr-8.03 text-sm">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -26,7 +26,7 @@ const Navbar = () => {
                   width={40}
                   height={40}
                 />
-                <span className="md:text-xl text-sm font-light hover:gray-200  pl-2">
+                <span className="md:text-xl hidden md:block text-sm font-light hover:gray-200  pl-2">
                   QuillAudits
                 </span>
               </span>
@@ -122,7 +122,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <Link
-                class="rounded-sm bg-gradient-to-b from-[#7184FD] via-[#3F7AF0] to-[#4F37EE] md:px-5 px-3  py-2 text-sm font-medium text-white shadow"
+                className="rounded-sm bg-gradient-to-b from-[#7184FD] via-[#3F7AF0] to-[#4F37EE] py-2 px-5 font-medium text-white shadow hover:bg-blue-800"
                 href="#"
               >
                 Request an Audit
